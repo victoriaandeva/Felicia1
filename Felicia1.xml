@@ -42,12 +42,7 @@
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="comment_comment" id="15">
-                                        <field name="TEXT">bye felicia</field>
-                                        <next>
-                                          <block type="movement_stop" id="16"></block>
-                                        </next>
-                                      </block>
+                                      <block type="movement_stop" id="16"></block>
                                     </next>
                                   </block>
                                 </next>
