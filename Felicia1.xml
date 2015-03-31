@@ -1,1 +1,66 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat" id="53" inline="true" x="188" y="61">
+    <value name="TIMES">
+      <block type="math_number" id="72">
+        <field name="NUM">40</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="1">
+        <next>
+          <block type="robot_delay" id="2" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="3">
+                <field name="NUM">2000</field>
+              </block>
+            </value>
+            <next>
+              <block type="movement_left" id="4">
+                <next>
+                  <block type="robot_delay" id="5" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="6">
+                        <field name="NUM">3000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="movement_reverse" id="7">
+                        <next>
+                          <block type="robot_delay" id="8" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="9">
+                                <field name="NUM">4000</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="movement_right" id="10">
+                                <next>
+                                  <block type="robot_delay" id="11" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="12">
+                                        <field name="NUM">5000</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="comment_comment" id="13">
+                                        <field name="TEXT">bye felicia</field>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
